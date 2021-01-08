@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2020 Start Bootstrap
+* Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
 */
 /*!
@@ -10002,9 +10002,9 @@ h3 {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #ffc107;
   border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  border-color: #ffc107 !important;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -10013,14 +10013,14 @@ h3 {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50 !important;
+  color: #ffc107 !important;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #ffc107;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #ffc107 !important;
 }
 
 .btn-xl {
@@ -10058,22 +10058,22 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #ffc107;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #ffc107;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #ffc107;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #ffc107;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #ffc107;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10094,11 +10094,11 @@ h3 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: #ffc107;
     background: #1abc9c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #ffc107;
     background: #1abc9c;
   }
 
@@ -10232,9 +10232,28 @@ form .row:first-child .floating-label-form-group {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #2c3e50;
-  color: #fff;
+  color: #ffc107;
 }
 
 .copyright {
   background-color: #1a252f;
+}
+
+.text-white {
+  color: #ffc107 !important;
+}
+
+.btn-outline-light {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-outline-light:hover {
+  color: #343a40;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+body {
+  background-color: #343a40;
 }

@@ -9,9 +9,9 @@
         width: 100%;
         max-width: 7rem;
         height: 0.25rem;
-        background-color: $secondary;
+        background-color: $yellow;
         border-radius: 1rem;
-        border-color: $secondary !important;
+        border-color: $yellow !important;
         &:first-child {
             margin-right: 1rem;
         }
@@ -20,15 +20,15 @@
         }
     }
     .divider-custom-icon {
-        color: $secondary !important;
+        color: $yellow !important;
         font-size: 2rem;
     }
     &.divider-light {
         .divider-custom-line {
-            background-color: $white;
+            background-color: $yellow;
         }
         .divider-custom-icon {
-            color: $white !important;
+            color: $yellow !important;
         }
     }
 }

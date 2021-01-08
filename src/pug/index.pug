@@ -5,16 +5,16 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Personal page')
+        meta(name='author', content='ssprog')
 
-        title Freelancer - Start Bootstrap Theme
+        title SSPROG - Personal page
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+        script(src='https://kit.fontawesome.com/9a3fd44993.js', crossorigin='anonymous')
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
@@ -26,9 +26,9 @@ html(lang='en')
     body#page-top
 
         // Navigation
-        nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
+        nav#mainNav.navbar.navbar-expand-lg.bg-dark.text-uppercase.fixed-top
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
+                a.navbar-brand.js-scroll-trigger(href='#page-top') SSPROG
                 button.navbar-toggler.navbar-toggler-right.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu 
                     i.fas.fa-bars
@@ -36,18 +36,14 @@ html(lang='en')
                     ul.navbar-nav.ml-auto
                         li.nav-item.mx-0.mx-lg-1
                             a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#portfolio') Portfolio
-                        li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#about') About
-                        li.nav-item.mx-0.mx-lg-1
-                            a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger(href='#contact') Contact
 
         // Masthead
-        header.masthead.bg-primary.text-white.text-center
+        header.masthead.bg-secondary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
                 // Masthead Avatar Image
-                img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='')
+                img.masthead-avatar.mb-5(src='assets/img/avatar.svg', alt='SSPROG')
                 // Masthead Heading
-                h1.masthead-heading.text-uppercase.mb-0 Start Bootstrap
+                h1.masthead-heading.text-uppercase.mb-0 PERSONAL PAGE
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
@@ -55,13 +51,13 @@ html(lang='en')
                         i.fas.fa-star
                     .divider-custom-line
                 // Masthead Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Graphic Artist - Web Designer - Illustrator
+                p.masthead-subheading.font-weight-light.mb-0 Graphic designer - Photographer - Video maker - App developer
 
         // Portfolio Section
         section#portfolio.page-section.portfolio
             .container
                 // Portfolio Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Portfolio
+                h2.page-section-heading.text-center.text-uppercase.text-white.mb-0 Portfolio
                 // Icon Divider
                 .divider-custom
                     .divider-custom-line
@@ -113,72 +109,6 @@ html(lang='en')
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='assets/img/portfolio/submarine.png', alt='')
 
-        // About Section
-        section#about.page-section.bg-primary.text-white.mb-0
-            .container
-                // About Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-white About
-                // Icon Divider
-                .divider-custom.divider-light
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
-                    .divider-custom-line
-                // About Section Content
-                .row
-                    .col-lg-4.ml-auto
-                        p.lead
-                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
-                    .col-lg-4.mr-auto
-                        p.lead
-                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
-                // About Section Button
-                .text-center.mt-4
-                    a.btn.btn-xl.btn-outline-light(href='https://startbootstrap.com/theme/freelancer/')
-                        i.fas.fa-download.mr-2
-                        | Free Download!
-
-        // Contact Section
-        section#contact.page-section
-            .container
-                // Contact Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
-                // Icon Divider
-                .divider-custom
-                    .divider-custom-line
-                    .divider-custom-icon
-                        i.fas.fa-star
-                    .divider-custom-line
-                // Contact Section Form
-                .row
-                    .col-lg-8.mx-auto
-                        // To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-                        form#contactForm(name='sentMessage', novalidate='novalidate')
-                            .control-group
-                                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                                    label Name
-                                    input#name.form-control(type='text', placeholder='Name', required='required', data-validation-required-message='Please enter your name.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                                    label Email Address
-                                    input#email.form-control(type='email', placeholder='Email Address', required='required', data-validation-required-message='Please enter your email address.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                                    label Phone Number
-                                    input#phone.form-control(type='tel', placeholder='Phone Number', required='required', data-validation-required-message='Please enter your phone number.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls.mb-0.pb-2
-                                    label Message
-                                    textarea#message.form-control(rows='5', placeholder='Message', required='required', data-validation-required-message='Please enter a message.')
-                                    p.help-block.text-danger
-                            br
-                            #success
-                            .form-group
-                                button#sendMessageButton.btn.btn-primary.btn-xl(type='submit') Send
-
         // Footer
         footer.footer.text-center
             .container
@@ -187,31 +117,31 @@ html(lang='en')
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Location
                         p.lead.mb-0
-                            | 2215 John Daniel Drive
+                            | Milan
                             br
-                            | Clark, MO 65243
+                            | Italy
                     // Footer Social Icons
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Around the Web
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.facebook.com/salvosq')
                             i.fab.fa-fw.fa-facebook-f
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-twitter
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-linkedin-in
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-dribbble
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.instagram.com/ssprog')
+                            i.fab.fa-fw.fa-instagram
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.youtube.com/channel/UCwYHTLXMVzOFVXqlsjWrN6Q')
+                            i.fab.fa-fw.fa-youtube
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.tiktok.com/@ssprog')
+                            i.fab.fa-fw.fa-tiktok
                     // Footer About Text
                     .col-lg-4
-                        h4.text-uppercase.mb-4 About Freelancer
+                        h4.text-uppercase.mb-4 SSProg personal page
                         p.lead.mb-0
-                            | Freelance is a free to use, MIT licensed Bootstrap theme created by 
-                            a(href='http://startbootstrap.com') Start Bootstrap
+                            | Developed with 
+                            a(href='https://getbootstrap.com') Bootstrap
                             | .
         // Copyright Section
         div.copyright.py-4.text-center.text-white
             .container
-                small Copyright © Your Website 2020
+                small Copyright © SSProg 2021
         // Scroll to Top Button (Only visible on small and extra-small screen sizes)
         .scroll-to-top.d-lg-none.position-fixed
             a.js-scroll-trigger.d-block.text-center.text-white.rounded(href='#page-top')
@@ -388,10 +318,6 @@ html(lang='en')
 
         // Third party plugin JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
-
-        // Contact form JS
-        script(src='assets/mail/jqBootstrapValidation.js')
-        script(src='assets/mail/contact_me.js')
 
         // Core theme JS
         script(src='js/scripts.js')

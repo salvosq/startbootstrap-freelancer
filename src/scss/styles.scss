@@ -13,3 +13,22 @@
 @import "./portfolio.scss";
 @import "./contact.scss";
 @import "./footer.scss";
+
+.text-white {
+    color: $yellow !important;
+}
+
+.btn-outline-light {
+    color: $yellow;
+    border-color: $yellow;
+}
+
+.btn-outline-light:hover {
+    color: $dark;
+    background-color: $yellow;
+    border-color: $yellow;
+}
+
+body {
+    background-color: $dark;
+  }
